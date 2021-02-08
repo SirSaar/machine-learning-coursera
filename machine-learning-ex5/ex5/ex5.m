@@ -219,6 +219,6 @@ end
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-[test_error,grad]= linearRegCostFunction(X_poly_test,y_test,theta,0);
+[test_error,grad]= linearRegCostFunction(X_poly_test,ytest,theta,0);
 fprintf('test error: %f',test_error);
 pause;
